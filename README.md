@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-A project on creating an AI that would learn how to play the game of tic-tac-toe from scratch. Started on 8/23/2026 and     finished on 9/4/2026.
+A project on creating an AI that would learn how to play the game of tic-tac-toe from scratch. Started on August 29, 2026 and finished on September 5, 2026.
 ## What I built
 An actual game of tic-tac-toe and an AI that would learn how to play the game using the programming language Python.
 ## How It Works
