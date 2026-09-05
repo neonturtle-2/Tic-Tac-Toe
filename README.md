@@ -11,8 +11,8 @@ The AI uses **reinforcement learning** to understand what moves it should make w
   - ***random*** **module:** used for randomly picking whose turn it is at the beginning of a game and whether the AI should use exploration or exploitation.
 ## Results
 I made **three** different python files:
-  - **tictactoe.py:** A working python version of tic-tac-toe with no AI functions, but allows two humans to play.
-  - **tictactoe_randomai.py:** Adds an AI that a human plays against. The AI plays as "O" and slowly learns how to play as more games are run.
-  - **tictactoe_trainingai.py:** Makes two AIs play tic tac toe against each other, but the AI playing as "O" is the one actually learning.
+  - [tictactoe.py](tictactoe.py): A working python version of tic-tac-toe with no AI functions, but allows two humans to play.
+  - [tictactoe_randomai.py](tictactoe_randomai.py): Adds an AI that a human plays against. The AI plays as "O" and slowly learns how to play as more games are run.
+  - [tictactoe_trainingai.py](tictactoe_trainingai.py): Makes two AIs play tic tac toe against each other, but the AI playing as "O" is the one actually learning.
 ## What I Learned
 From this project, I grew my Python and coding skills and learned the basics of machine learning. I learned how to use lists and dictionaries as well as how to manipulate them to make the AI's "brain", global vs local variables, and the *random* module. I learned about reinforcement learning, why it works, and how to implement it in Python. I also strengthened my skills with the for loop and my debugging skills, which were greatly tested with the many errors and failed outcomes of my projects.
