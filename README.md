@@ -3,7 +3,7 @@ A project on creating an AI that would learn how to play the game of tic-tac-toe
 ## What I built
 An actual game of tic-tac-toe and an AI that would learn how to play the game using the programming language Python.
 ## How It Works
-### Tic Tac Toe
+### Tic-Tac-Toe
 The board is represented as a list, with empty strings for blank spots and either an X or O depending on what is placed. When displaying the board, it is formatted using dashes and pipes to visually see what the board looks like.
 ### The AI
 The AI uses **reinforcement learning** to understand what moves it should make when playing the game. It does this by giving each move a starting score value of 0 and increasing or decreasing the value by a certain amount depending on whether it lost or won. The magnitude of the score change is determined whether the move was made later on in the game (which is larger due to the move possibly determining a win or loss) or in the beginning (which is smaller due to not affecting the game's outcome as much). The AI utilizes exploration and exploitation to maintain a balance of using what it knows vs. exploring unknown outcomes and eventually favors more towards its knowledge as training progresses.
